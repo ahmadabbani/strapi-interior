@@ -421,6 +421,29 @@ export interface ApiProductProduct extends Schema.CollectionType {
       'manyToMany',
       'api::category.category'
     >;
+    color: Attribute.Enumeration<
+      [
+        'White',
+        'Golden Oak',
+        'Blue and White',
+        'White and Green',
+        'Black',
+        'Light Blue',
+        'Gold and White',
+        'Gold and Light Blue'
+      ]
+    >;
+    material: Attribute.Enumeration<
+      [
+        'Wood ',
+        ' Tempered Glass',
+        'Frosted Glass',
+        'Aluminum',
+        'Genuine Leather',
+        'Faux Leather',
+        'Iron and Glass'
+      ]
+    >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

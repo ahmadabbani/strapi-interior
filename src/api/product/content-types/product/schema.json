@@ -48,6 +48,31 @@
       "relation": "manyToMany",
       "target": "api::category.category",
       "inversedBy": "products"
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "White",
+        "Golden Oak",
+        "Blue and White",
+        "White and Green",
+        "Black",
+        "Light Blue",
+        "Gold and White",
+        "Gold and Light Blue"
+      ]
+    },
+    "material": {
+      "type": "enumeration",
+      "enum": [
+        "Wood ",
+        " Tempered Glass",
+        "Frosted Glass",
+        "Aluminum",
+        "Genuine Leather",
+        "Faux Leather",
+        "Iron and Glass"
+      ]
     }
   }
 }
