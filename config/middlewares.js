@@ -30,7 +30,7 @@ module.exports = [
   {
     name: "strapi::cors",
     config: {
-      origin: ["http://localhost:5173"],
+      origin: ["https://interiordesign-gilt.vercel.app"],
       methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
       headers: ["Content-Type", "Authorization"],
     },
